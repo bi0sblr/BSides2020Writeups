@@ -32,4 +32,4 @@ Trying out these four inputs, we can see that only `171` gives simple-looking as
 
 It's pretty trivial as to what the flag is from here. This function is doing a simple check and all we need to do is to interpret the hex values as ASCII.
 
-The flag is "BSDCTF{sup3r_sh0rt_fl4g}"
+The flag is `BSDCTF{sup3r_sh0rt_fl4g}`
